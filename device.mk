@@ -21,7 +21,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    vendor/fingerprint/opensource/interfaces \
+    device/xiaomi/sakura/biometrics/vendor/fingerprint/opensource/interfaces \
     hardware/xiaomi
 
 # Screen density
