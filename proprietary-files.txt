@@ -1332,3 +1332,6 @@ vendor/lib64/libwvhidl.so
 
 # Wi-Fi
 vendor/bin/wcnss_service
+
+# WiFi (wpa_supplicant) - from barbet-user 14 AP1A.240505.004 11583682 release-keys
+vendor/bin/hw/wpa_supplicant|a919764157f8a5c022e932949cc9a1394a7da653
