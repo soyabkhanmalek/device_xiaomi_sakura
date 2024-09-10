@@ -1,5 +1,6 @@
 # Not appended blobs from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 # sakura: sakura-user 9 PKQ1.180917.001 V12.0.1.0.PDICNXM release-keys
+# caymanslm: caymanslm-user 12 SKQ1.211103.001 8450120221101 release-keys
 
 # ADSP
 vendor/bin/adsprpcd
@@ -126,10 +127,6 @@ vendor/lib/libarcsoft_high_dynamic_range.so
 
 # Camera bin
 vendor/bin/mm-qcamera-daemon
-
-# Camera libts - from daisy-user 8.1.0 OPM1.171019.019 V9.6.4.0.ODLMIFF release-keys
--vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0|356a49713693fa83d058e968c00d129d85c8acfb
--vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10|5b2ffbbd2b03eb4b1b98d89c04bdd3873db4bb7f
 
 # Camera chromatix
 vendor/lib/libchromatix_ov12a10_sunny_sakura_4k_preview_dw9763.so
@@ -1077,7 +1074,7 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Power-off alarm - from caymanslm - SKQ1.211103.001
+# Power-off alarm - from caymanslm
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|37b4999095331f4f3dd6c118ee0bdea4bdf7f003
 vendor/bin/power_off_alarm|04e651db91ca2598f1bf50453fdb49a63463b2dc
